@@ -42,7 +42,7 @@ export default function Formations() {
   const [selectedFormation, setSelectedFormation] = useState<typeof formations[0] | null>(null);
 
   return (
-    <section id="formacoes" className="py-24 relative z-10 overflow-hidden">
+    <section id="formacoes" className="py-24 relative z-10 overflow-hidden scroll-mt-20">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

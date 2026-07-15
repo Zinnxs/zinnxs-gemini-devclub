@@ -42,7 +42,7 @@ const mentors = [
 
 export default function Mentors() {
   return (
-    <section className="py-24 relative z-10">
+    <section id="mentoria" className="py-24 relative z-10 scroll-mt-20">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

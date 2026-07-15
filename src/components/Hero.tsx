@@ -81,10 +81,10 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="flex flex-col sm:flex-row items-center gap-6 w-full sm:w-auto"
           >
-            <button className="group flex w-full sm:w-auto items-center justify-center gap-3 px-8 py-4 bg-white text-black font-bold rounded-2xl hover:bg-opacity-90 transition-all">
+            <a href="#formacoes" className="group flex w-full sm:w-auto items-center justify-center gap-3 px-8 py-4 bg-white text-black font-bold rounded-2xl hover:bg-opacity-90 transition-all">
               <span>Quero ser um Dev Completo</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
             <div className="flex -space-x-3 hidden sm:flex">
               <div className="w-10 h-10 rounded-full border-2 border-brand-bg bg-gray-600 overflow-hidden"><img src={`https://i.pravatar.cc/100?img=1`} alt="avatar" /></div>
               <div className="w-10 h-10 rounded-full border-2 border-brand-bg bg-gray-500 overflow-hidden"><img src={`https://i.pravatar.cc/100?img=2`} alt="avatar" /></div>

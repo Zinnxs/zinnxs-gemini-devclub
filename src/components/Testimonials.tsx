@@ -57,7 +57,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="py-24 relative z-10 overflow-hidden">
+    <section id="depoimentos" className="py-24 relative z-10 overflow-hidden scroll-mt-20">
       <div className="container mx-auto px-6 mb-12 flex items-end justify-between">
         <motion.div
           initial={{ opacity: 0, x: -30 }}

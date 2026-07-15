@@ -39,7 +39,7 @@ const pillars = [
 
 export default function About() {
   return (
-    <section id="sobre" className="py-24 relative z-10">
+    <section id="sobre" className="py-24 relative z-10 scroll-mt-20">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, filter: 'blur(10px)', y: 30 }}

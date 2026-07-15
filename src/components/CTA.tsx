@@ -3,7 +3,7 @@ import { Sparkles, ArrowRight } from 'lucide-react';
 
 export default function CTA() {
   return (
-    <section className="py-32 relative z-10 overflow-hidden">
+    <section id="cta" className="py-32 relative z-10 overflow-hidden">
       {/* Glow Effects */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] h-[80vw] md:w-[40vw] md:h-[40vw] rounded-full bg-brand-purple/20 blur-[120px] pointer-events-none" />
       
@@ -32,10 +32,11 @@ export default function CTA() {
             Junte-se a mais de 12 mil profissionais que já transformaram suas carreiras com o DevClub. As vagas da próxima turma estão abertas.
           </p>
 
-          <motion.button
+          <motion.a
+            href="#formacoes"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-white text-brand-bg font-bold text-lg rounded-full overflow-hidden transition-all shadow-[0_0_40px_rgba(255,255,255,0.3)]"
+            className="group relative inline-flex items-center justify-center gap-3 px-10 py-5 bg-white text-brand-bg font-bold text-lg rounded-full overflow-hidden transition-all shadow-[0_0_40px_rgba(255,255,255,0.3)] inline-block"
           >
             <span className="relative z-10">Quero ser um Dev Completo</span>
             <ArrowRight className="w-6 h-6 relative z-10 group-hover:translate-x-1 transition-transform" />
@@ -43,7 +44,7 @@ export default function CTA() {
             
             {/* Particles emitting from button (simplified CSS effect) */}
             <div className="absolute -inset-2 rounded-full border border-white/30 scale-105 opacity-0 group-hover:animate-ping" />
-          </motion.button>
+          </motion.a>
         </motion.div>
       </div>
     </section>
